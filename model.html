@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<title>Hello, world!</title>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+
+
+
+<body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs>
+
+        <a-gltf-model src="https://cdn.rawgit.com/3164255/AR_TEST/master/ROCK_TEST_2.gltf" scale="1 1 1">
+        </a-gltf-model>
+
+            <a-marker-camera preset='hiro'></a-marker-camera>
+    </a-scene>
+</body>
+<!--models/fish-2.gltf-->
+</html>
